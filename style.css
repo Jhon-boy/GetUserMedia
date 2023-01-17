@@ -1,0 +1,165 @@
+body{
+    background-color: #2bf2f5;
+
+}
+.screenshot-image {
+    margin-top: -30px;
+    width: 150px;
+    height: 90px;
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background: white;
+}
+
+.display-cover {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 5% auto;
+    position: relative;
+    border: 4px black solid;
+    border-radius: 5px;
+
+}
+
+video {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.video-options {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.controls {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls button {
+        margin: 5px 0 !important;
+    }
+}
+
+.controls > button > svg {
+    height: 20px;
+    width: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.controls button:nth-child(1) {
+    border: 2px solid #D2002E;
+}
+
+.controls button:nth-child(1) svg {
+    color: #D2002E;
+}
+
+.controls button:nth-child(2) {
+    border: 2px solid #008496;
+}
+
+.controls button:nth-child(2) svg {
+    color: #008496;
+}
+
+.controls button:nth-child(3) {
+    border: 2px solid #00B541;
+}
+
+.controls button:nth-child(3) svg {
+    color: #00B541;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: yellow;
+}
+.aviso
+{
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    margin-bottom: -30px;
+    text-align: center;
+    border:  2px solid black;
+    border-radius: 10px;
+    width:850px;
+    height: min-content;
+}
+.title{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.informacion{
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -75px;
+    color: black;
+    margin-bottom: 25px;
+}
+.iniciar{
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: #43f685;
+    color: black;
+    font-size: 25px;
+    border: 2px black solid;
+    border-radius: 7px;
+    width: 225px;
+    height: 60px;
+}
+.iniciar:hover{
+    cursor: pointer;
+    background-color: #00B541;
+    color: black;
+}
+.pic{
+    margin-left: 10px;
+}
+.diseñado{
+    margin-left: 40%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
